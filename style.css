@@ -1,0 +1,60 @@
+git body {
+  background-color: black;
+}
+.big_cont {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(228, 222, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  background-color: rgb(3, 4, 3);
+  border-radius: 40px;
+}
+.calculator form input {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  background-color: rgba(109, 104, 104, 0.896);
+  font-size: 30px;
+  margin-top: 5px;
+  border: 0;
+  outline: 0;
+}
+.calculator .ylw {
+  background-color: orange;
+}
+.calculator .ash {
+  background-color: rgb(167, 173, 173);
+  color: black;
+}
+.calculator .Lnt {
+  width: 120px;
+  border-radius: 30px;
+}
+form .display {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 0;
+  border-radius: none;
+}
+form .display input {
+  display: flex;
+  width: 10px;
+  height: 100px;
+  border-radius: 0;
+  text-align: right;
+  flex: 1;
+  font-size: 70px;
+  background-color: transparent;
+}
